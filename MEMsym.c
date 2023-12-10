@@ -13,6 +13,14 @@ typedef struct{
     unsigned char Data[TAM_LINEA];
 }T_CACHE_LINE;
 
+//variables globales?
+unsigned char Simul_RAM[4096];
+unsigned int globaltime = 0;
+unsigned int numfallos = 0;
+unsigned int totalAccesos = 0;
+
+
+
 //funciones OBLIGATORIAS
 void LimpiarCACHE(T_CACHE_LINE tbl[NUM_FILAS]);
 void VolcarCACHE(T_CACHE_LINE *tbl);
