@@ -39,10 +39,6 @@ int main(){
     int *linea;
     int *bloque;
 
-    //deben ser unsigned?
-    int globaltime = 0;
-    int numfallos = 0;
-
     T_CACHE_LINE *tbl; //hay que definir tamaño 8
 
     FILE *fd;
